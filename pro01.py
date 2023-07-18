@@ -2,7 +2,7 @@ import streamlit as st
 import joblib
 
 #載入並還原模型
-clf = joblib.load("webapp/model.joblib")
+clf = joblib.load("model.joblib")
 
 st.title("品種預測")
 
